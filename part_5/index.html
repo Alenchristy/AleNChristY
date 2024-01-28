@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html" class="lg">facebook</a>
+            </div>
+            <div class="login">
+                <form>
+                    <table class="login-controls">
+                        <tr>
+                        <td><label class="login-label">Email or Mobile</label></td> 
+                        <td><label class="login-label">Password</label></td>   
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input class="submit" type="submit" value="Login"></td>
+                        </tr>
+                        <td></td>
+                        <td><a class="forgotten" href="forgotten.html">Forgott Account</a></td>
+                    </table>
+                </form>
+                
+            </div>
+
+        </div>
+        <br>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you to connect and share with the <br>people in your life.</p>
+                <img class="image" src="\network.png" alt="Facebook">
+            </div>
+            <div class="right-section">
+                <h1>Create an account</h1>
+                <p>it's quick and easy.</p>
+                <form action="hello.html" id="signup-form">
+                    <input name="fname" class="frst" type="text" placeholder="First Name">
+                    <input name="sname" class="srn" type="text" placeholder="Sur Name"><br><br>
+                    <input name="emailaddress" class="inlput" type="text" placeholder="Email Address"><br><br>
+                    <input name="password" class="input" type="password" placeholder="New Password"><br>
+                    <h3>Birthday</h3>
+                    <select class="day" name="day" id="">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="2">31</option>
+                    </select>
+                    <select class="month" name="month" id="">
+                        <option value="">Month</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="2">3</option>
+                    </select>
+                    <select class="year" name="year" id="">
+                        <option value="">Year</option>
+                        <option value="1">2000</option>
+                        <option value="2">2010</option>
+                        <option value="2">2020</option>
+                    </select>
+                    <i class="fa fa-question-circle"></i>
+                    <br>
+                    <h3>Gender</h3><br>
+                    <input name="gender" type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Male</label>
+                    <input name="gender" type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Female</label>
+                    <input name="gender" type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Custom</label>
+                    <i class="fa fa-question-circle"></i><br>
+                    <p>
+                        by clicking sign up you are agree to our <br>terms,data,policy and cookie policy
+                    </p>
+                    <br>
+                    <button class="bt" type="submit">
+                        Sign Up
+                    </button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js">
+    </script> 
+    <script src="script.js"></script>
+     
+    
+</body>
+
+</html>
